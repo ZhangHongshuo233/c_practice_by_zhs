@@ -1,16 +1,6 @@
-# Prerequisites
-*.d
-
-# Object files
+# Compiled object files
 *.o
-*.ko
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
 
 # Precompiled Headers
 *.gch
@@ -22,7 +12,7 @@
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects (shared libraries)
 *.dll
 *.so
 *.so.*
@@ -32,24 +22,35 @@
 *.exe
 *.out
 *.app
-*.i*86
-*.x86_64
-*.hex
+a.out
 
 # Debug files
 *.dSYM/
-*.su
-*.idb
 *.pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Compiler-specific files
+*.stackdump
 
-# debug information files
-*.dwo
+# Build directories (if you use them)
+build/
+cmake-build-*/
+out/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.code-workspace
+*.user
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
